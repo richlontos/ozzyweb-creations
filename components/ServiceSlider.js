@@ -24,27 +24,27 @@ export const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Branding is our craft. We shape unique identities through logos, color palettes, voice, and strategic storytelling.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: ' Elevates visual art. Our design expertise shapes impactful, aesthetically pleasing, and user-friendly digital landscapes.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Transforms visions into functional realities. Our development ensures seamless, robust, and innovative digital solutions',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafts compelling narratives. Our copywriting expertise captures voices, engages audiences, and drives impactful messages',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Optimizes digital visibility. Through SEO strategies, we enhance rankings, drive traffic, and amplify online presence.',
   },
 ];
 

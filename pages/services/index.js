@@ -22,7 +22,7 @@ const Services = () => {
               exit='hidden'
               className='h2 xl:mt-8'
             >
-              My services <span className='text-accent'>.</span>
+              Our services <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +31,10 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+              At OzzyWeb Creations, we transform digital ideas into tangible realities.
+              From sleek websites to innovative apps and powerful marketing drives, 
+              our team is your key to unlocking unparalleled digital experiences. 
+              Dive into our services and envision the possibilities with us
             </motion.p>
           </div>
 

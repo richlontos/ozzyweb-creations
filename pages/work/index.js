@@ -22,7 +22,7 @@ const Work = () => {
               exit='hidden'
               className='h2 xl:mt-12'
             >
-              My work <span className='text-accent'>.</span>
+              Our Work <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +31,8 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+              Crafted with precision, our digital projects echo innovation and commitment. 
+              Each creation is a blend of artistry and code, reflecting our passion. Immerse yourself in the narratives we've built.
             </motion.p>
           </div>
 

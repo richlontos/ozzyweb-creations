@@ -20,7 +20,7 @@ import {
 //  about data
 export const aboutData = [
   {
-    title: 'skills',
+    title: 'Craftsmanship',
     info: [
       {
         title: 'Web Development',
@@ -40,50 +40,61 @@ export const aboutData = [
       },
     ],
   },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
-      },
-    ],
-  },
+  // {
+  //   title: 'awards',
+  //   info: [
+  //     {
+  //       title: 'Webby Awards - Honoree',
+  //       stage: '2011 - 2012',
+  //     },
+  //     {
+  //       title: 'Adobe Design Achievement Awards - Finalist',
+  //       stage: '2009 - 2010',
+  //     },
+  //   ],
+  // },
   {
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'UX/UI Designer/Web Master - Vertex Solutions',
+        stage: '2022 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer - SynergySoft Solutions',
+        stage: '2022 - 2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Technical Product Owner  - FCA Legal Funding',
+        stage: '2020 - 2022',
+      },
+      {
+        title: 'Social Media Manager  - Ouzo & Feta',
+        stage: '2019 - 2020',
+      },
+      {
+        title: 'Project Manager - Transform Design',
+        stage: '2016 - 2018',
       },
     ],
   },
   {
-    title: 'credentials',
+    title: 'meet the team',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Lead Developer',
+        stage: 'Richard Lontos',
+        image: '/richard.jpg'
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Developer/Project Manager',
+        stage: 'Medrik Minassian',
+        image: '/medrik.jpg'
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Director of Technology Strategy',
+        stage: 'Lizeth Dada',
+        image: '/richard.png'
       },
     ],
   },
@@ -118,6 +129,7 @@ const About = () => {
       </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/* text */}
+        <br />
         <div className='flex-1 flex flex-col justify-center'>
           <motion.h2
             variants={fadeIn('right', 0.2)}
@@ -136,9 +148,9 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago, I began freelancing as a developer. Since then, I've
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer use.
+            At OzzWeb Creations, the digital realm is our canvas. Powered by a team of visionary creators and relentless innovators, 
+            we don’t just design websites; we breathe life into digital dreams. No challenge is too great, no idea too bold. From the first pixel to the final product,
+             we're committed to turning your vision into a reality. Your imagination is the only limit.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -152,7 +164,7 @@ const About = () => {
               {/* experience */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={10} duration={5} /> +
+                  <CountUp start={0} end={7} duration={10} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Years of experience
@@ -161,7 +173,7 @@ const About = () => {
               {/* clients */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={50} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Satisfied clients
@@ -170,21 +182,21 @@ const About = () => {
               {/* projects */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={650} duration={5} /> +
+                  <CountUp start={0} end={120} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Finished projects
                 </div>
               </div>
               {/* awards */}
-              <div className='relative flex-1'>
+              {/* <div className='relative flex-1'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
                   <CountUp start={0} end={8} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Winning awards
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
@@ -201,10 +213,9 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className={`${
-                    index === itemIndex &&
+                  className={`${index === itemIndex &&
                     'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
-                  }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                    }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
@@ -223,6 +234,10 @@ const About = () => {
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                   <div className='hidden md:flex'>-</div>
                   <div>{item.stage}</div>
+                  {/* Render the image if it exists */}
+                  {item.image && (
+                    <img src={item.image} alt={item.title} className='w-24 h-24 object-cover rounded-full' />
+                  )}
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {

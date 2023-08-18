@@ -2,24 +2,24 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Jessica T',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Incredible team! They transformed our vision into reality with utmost precision. Truly the best digital experience we've had.",
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Lisa M',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Their attention to detail is unparalleled. The website not only looks stunning but performs flawlessly. Highly recommended!',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Alejandro S',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'A seamless blend of creativity and technology. Their dedication shines through every aspect of the project.',
   },
 ];
 
