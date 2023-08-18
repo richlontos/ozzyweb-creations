@@ -32,7 +32,7 @@ const Work = () => {
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
               Crafted with precision, our digital projects echo innovation and commitment. 
-              Each creation is a blend of artistry and code, reflecting our passion. Immerse yourself in the narratives we've built.
+              Each creation is a blend of artistry and code, reflecting our passion. Immerse yourself in the narratives we&apos;ve built.
             </motion.p>
           </div>
 

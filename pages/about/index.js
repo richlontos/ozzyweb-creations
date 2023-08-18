@@ -78,9 +78,11 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
+    
             At OzzWeb Creations, the digital realm is our canvas. Powered by a team of visionary creators and relentless innovators,
-            we don’t just design websites; we breathe life into digital dreams. No challenge is too great, no idea too bold. From the first pixel to the final product,
-            we're committed to turning your vision into a reality. Your imagination is the only limit.
+            we don&apos;t just design websites; we breathe life into digital dreams. No challenge is too great, no idea too bold. From the first pixel to the final product,
+            we&apos;re committed to turning your vision into a reality. Your imagination is the only limit.
+
           </motion.p>
           {/* counters */}
           <motion.div
