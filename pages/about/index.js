@@ -49,7 +49,7 @@ export const aboutData = [
     info: [
       { title: 'Lead Developer', stage: 'Richard Lontos', image: '/richard.jpg' },
       { title: 'Developer/Project Manager', stage: 'Medrik Minassian', image: '/medrik.jpg' },
-      { title: 'Director of Technology Strategy', stage: 'Lizeth Dada', image: '/richard.png' },
+      // { title: 'Director of Technology Strategy', stage: 'Lizeth Dada', image: '/richard.png' },
     ],
   },
 ];
@@ -83,7 +83,7 @@ const About = () => {
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
 
-            At OzzWeb Creations, the digital realm is our canvas. Powered by a team of visionary creators and relentless innovators,
+            At Megaberg Creations, the digital realm is our canvas. Powered by a team of visionary creators and relentless innovators,
             we don&apos;t just design websites; we breathe life into digital dreams. No challenge is too great, no idea too bold. From the first pixel to the final product,
             we&apos;re committed to turning your vision into a reality. Your imagination is the only limit.
 

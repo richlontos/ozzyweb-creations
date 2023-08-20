@@ -31,7 +31,7 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              At OzzyWeb Creations, we transform digital ideas into tangible realities.
+              At Megaberg Creations, we transform digital ideas into tangible realities.
               From sleek websites to innovative apps and powerful marketing drives, 
               our team is your key to unlocking unparalleled digital experiences. 
               Dive into our services and envision the possibilities with us
