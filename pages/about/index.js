@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaFigma } from 'react-icons/fa';
-import { SiNextdotjs, SiFramer, SiAdobexd, SiAdobephotoshop } from 'react-icons/si';
+import { SiNextdotjs, SiFramer, SiAdobexd, SiAdobephotoshop, SiMeta, SiGoogleads, SiHubspot, SiCanva } from 'react-icons/si';
 import Avatar from '../../components/Avatar';
 import Circles from '../../components/Circles';
 import { motion } from 'framer-motion';
@@ -27,6 +27,10 @@ export const aboutData = [
       {
         title: 'UI/UX Design',
         icons: [<FaFigma key="figma" />, <SiAdobexd key="adobexd" />, <SiAdobephotoshop key="photoshop" />],
+      },
+      {
+        title: 'Digital Marketing',
+        icons: [<FaFigma key="figma" />, <SiMeta key="meta" />, <SiGoogleads key="googleLeads" />, <SiHubspot key="hubSpot" />, <SiCanva key="canva" />],
       },
     ],
   },
@@ -54,12 +58,12 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+<div className='min-h-screen overflow-y-auto bg-primary/30 py-32 text-center xl:text-left'>
       <Circles />
       <motion.div variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className='hidden xl:flex absolute bottom-0 -left-[370px]'>
         <Avatar />
       </motion.div>
-      <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
+      <div className='container min-height: 100vh mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         <div className='flex-1 flex flex-col justify-center'>
           <motion.h2
             variants={fadeIn('right', 0.2)}
@@ -78,7 +82,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-    
+
             At OzzWeb Creations, the digital realm is our canvas. Powered by a team of visionary creators and relentless innovators,
             we don&apos;t just design websites; we breathe life into digital dreams. No challenge is too great, no idea too bold. From the first pixel to the final product,
             we&apos;re committed to turning your vision into a reality. Your imagination is the only limit.
@@ -138,7 +142,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='flex flex-col w-full xl:max-w-[48%] h-[480px]'
+          className='flex flex-col w-full xl:max-w-[48%] md:h-[480px]'
         >
           <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
             {aboutData.map((item, itemIndex) => (
