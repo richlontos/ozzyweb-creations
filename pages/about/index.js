@@ -49,7 +49,7 @@ export const aboutData = [
     info: [
       { title: 'Lead Developer', stage: 'Richard Lontos', image: '/richard.jpg' },
       { title: 'Developer/Project Manager', stage: 'Medrik Minassian', image: '/medrik.jpg' },
-      // { title: 'Director of Technology Strategy', stage: 'Lizeth Dada', image: '/richard.png' },
+      { title: 'Director of Technology Strategy', stage: 'Lizeth Dada', image: '/liz3.jpg' },
     ],
   },
 ];

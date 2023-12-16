@@ -1,21 +1,21 @@
 // testimonial slider data
 export const testimonialSlider = [
   {
-    image: '/t-avt-1.png',
+    image: '/michelle.jpeg',
     name: 'Jessica T',
     position: 'Customer',
     message:
       "Incredible team! They transformed our vision into reality with utmost precision. Truly the best digital experience we've had.",
   },
   {
-    image: '/t-avt-2.png',
-    name: 'Lisa M',
+    image: '/alejandro.jpeg',
+    name: 'Alejandro S',
     position: 'Customer',
     message:
       'Their attention to detail is unparalleled. The website not only looks stunning but performs flawlessly. Highly recommended!',
   },
   {
-    image: '/t-avt-3.png',
+    image: '/cesar.jpeg',
     name: 'Alejandro S',
     position: 'Customer',
     message:
