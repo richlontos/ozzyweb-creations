@@ -5,25 +5,25 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          // path: '/thumb1.jpg',
-          path: '/real-state.png',
+          path: '/thumb1.jpg',
+          // path: '/real-state.png',
         },
         {
           title: 'title',
-          // path: '/thumb2.jpg',
-          path: '/logistics.png',
+          path: '/thumb2.jpg',
+          // path: '/logistics.png',
 
         },
         {
           title: 'title',
-          // path: '/thumb3.jpg',
-          path: '/real-state.png',
+          path: '/thumb3.jpg',
+          // path: '/real-state.png',
 
         },
         {
           title: 'title',
-          // path: '/thumb4.jpg',
-          path: '/real-state.png',
+          path: '/thumb4.jpg',
+          // path: '/real-state.png',
 
         },
       ],
@@ -32,19 +32,19 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          // path: '/thumb4.jpg',
+          path: '/thumb4.jpg',
         },
         {
           title: 'title',
-          // path: '/thumb1.jpg',
+          path: '/thumb1.jpg',
         },
         {
           title: 'title',
-          // path: '/thumb2.jpg',
+          path: '/thumb2.jpg',
         },
         {
           title: 'title',
-          // path: '/thumb3.jpg',
+          path: '/thumb3.jpg',
         },
       ],
     },
